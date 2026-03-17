@@ -9,40 +9,75 @@
 <body>
     <nav>
         <div class="logo">
-            <img src="https://ukmprogramming.mdp.ac.id/images/procom.png" alt="">
+            <img src="images/procom.png" alt="">
         </div>
         <div class="menu">
-            <a href="index.html">Index</a>
+            <a href="index.html">Home</a>
             <a href="myskill.html">My Skill</a>
-            <a href="contact.html">Contact Me</a>
+            <a href="contact.html">Contact</a>
             <a href="login.html">Login</a>
         </div>
     </nav>
-</body>
-<script>
-    // 1. Menonaktifkan Klik Kanan
-    document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-    }, false);
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm Felicia yeow</h1>
+            <button>Contact Me</button>
+        </div>
+    </section>
+    <section class="myskill">
+        <h2>My Skill</h2>
+        <div class="card">
+            <div class="pic">
 
-    // 2. Menonaktifkan F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
-    document.onkeydown = function(e) {
-        if (event.keyCode == 123) { // F12
-            return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) { // Ctrl+Shift+I
-            return false;
-        }
-        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) { // Ctrl+Shift+J
-            return false;
-        }
-        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { // Ctrl+U
-            return false;
-        }
-        // Tambahan untuk Mac (Cmd+Option+I/J/C)
-        if (e.metaKey && e.altKey && e.keyCode == 'I'.charCodeAt(0)) {
-            return false;
-        }
-    }
-</script>
+            </div>
+            <h3>HTML</h3>
+        </div>
+        <div class="card">
+            <div class="pic">
+
+            </div>
+            <h3>HTML</h3>
+        </div>
+        <div class="card">
+            <div class="pic">
+
+            </div>
+            <h3>CSS</h3>
+        </div>
+    </section>
+
+    <section class="myprofile">
+        <h2>My Profile</h2>
+        <div class="myPic">
+
+        </div>
+        <div class="text-area">
+            <p>Content 1</p>
+            <p>Content 2</p>
+            <p>Content 3</p>
+            <p>Content 4</p>
+        </div>
+    </section>
+
+    <section class="myschool">
+        <h2>My School Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4458122149726!2d104.76146727426206!3d-2.97370823979727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b766d8211462f%3A0xcc95d97476bf2dd8!2sUniversitas%20Multi%20Data%20Palembang!5e0!3m2!1sid!2sid!4v1773740127555!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contactme">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="nama">Nama</label>
+            <input type="text">
+            <label for="email">Email</label>
+            <input type="email" name="" id="">
+            <label for="desc">Deskripsi</label>
+            <input type="text"><br><br>
+            <button>Kirim</button>
+        </form>
+    </section>
+    <footer>
+
+    </footer>
+</body>
 </html>
