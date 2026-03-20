@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fredoka:wdth,wght@84.3,300..700&family=Sniglet:wght@400;800&display=swap');
+
+:root{
+    --font-1: "Concert One", sans-serif;
+    --font-2: "Sniglet", system-ui;
+    --font-3: "Fredoka", sans-serif;
+}
+
+
 *{
     margin: 0;
     padding: 0;
