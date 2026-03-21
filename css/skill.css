@@ -1,0 +1,17 @@
+/* Navigation */
+nav{
+    background-color: rgb(108, 186, 200);
+}
+
+/* footer section */
+
+footer{
+    background-image: url(../images/background/cloud-white.png);
+    background-color: rgb(108, 186, 200);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+
+    padding: 20% 10%;
+}
+

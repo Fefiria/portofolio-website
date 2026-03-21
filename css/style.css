@@ -15,7 +15,6 @@
 
 body{
     color: black;
-
 }
 
 nav{
@@ -42,4 +41,28 @@ nav{
     color: rgb(255, 255, 255);
     font-weight: bolder;
     
+}
+
+/* footer */
+
+.foot-find {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foot-linky {
+    width: 10%;                /* each item takes % width */
+}
+
+.foot-linky img{
+    width: 100%;
+}
+
+.round{
+    border-radius: 100%;
+}
+
+.corner-rounded{
+    border-radius: 15%;
 }
