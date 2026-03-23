@@ -45,6 +45,7 @@ nav{
 
 /* footer */
 
+
 .foot-find {
     display: flex;
     justify-content: space-evenly;
@@ -52,17 +53,23 @@ nav{
 }
 
 .foot-linky {
-    width: 10%;                /* each item takes % width */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../images/star.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 5vw;
 }
 
 .foot-linky img{
-    width: 100%;
+    width: 25%; /* each item takes % width */
 }
 
-.round{
-    border-radius: 100%;
-}
-
-.corner-rounded{
-    border-radius: 15%;
+.foot-linky img:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
 }
