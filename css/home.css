@@ -17,6 +17,10 @@ button{
     font-family: var(--font-3);
 }
 
+main{
+    background-color: #00509d;
+}
+
 /* hero */
 .hero{
     display:flex;
@@ -56,13 +60,35 @@ button{
 /* myProfile */
 
 
+/* mySchool */
+.myschool{
+    padding: 2% 8%;
+}
+
+.myschool .school-location{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    border: 10px solid transparent;
+    border-image: linear-gradient(
+        180deg,
+        #0e6ba8,
+        #a6e1fa,
+        #0e6ba8
+    ) 1;
+}
+
+.myschool iframe{
+    width: 100%;
+}
+
 /* contactme */
 .contactme{
-    margin: 2% 8%;
+    padding: 2% 8%;
 }
 
 .contactme form{
-    background-color: rgb(183, 183, 183);
+    background-color: #a6e1fa;
     padding: 2rem;
     margin: auto;
 }
