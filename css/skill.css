@@ -1,7 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main{
     background-color: #00509d;
 }
 
-/* Main Skills */
+/* texts */
+.skill-texts{
+    padding: 2% 8%;
+    display: flex;
+    justify-content: center;
+}
 
+.skills{
+    overflow: hidden;
+    padding: 2% 8%;
+}
+
+.skill{
+    float: left;
+    width: 33.33%;
+}
+
+.skill img{
+    width: 100%;
+    padding: 1vw;
+}
+
+/* media  for phone*/
+@media screen and (max-width: 767px){
+    .skill{
+        float: left;
+        width: 100%;
+    }
+}
+
+/* media  for tablets*/
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .skill{
+        float: left;
+        width: 50%;
+    }
+}
 
