@@ -1,17 +1,7 @@
-/* Navigation */
-nav{
-    background-color: rgb(108, 186, 200);
+main{
+    background-color: #00509d;
 }
 
-/* footer section */
+/* Main Skills */
 
-footer{
-    background-image: url(../images/background/cloud-white.png);
-    background-color: rgb(108, 186, 200);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: center;
-
-    padding: 20% 10%;
-}
 
