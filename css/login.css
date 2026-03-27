@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #00509d;
+    overflow: hidden;
+    text-align: center;
+    padding: 10% 2vw;
+}
+
+.login{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 0 1vw;
+}
+
+/* image */
+.pic{
+    background-color: white;
+}
+
+.pic img{
+    width: 100%;
+}
+
+/* inputs */
+.texts{
+    text-align: left;
+    background-color: #a6e1fa;
+}
+
+.form-login{
+
+}
+
+.texts button{
+    display: flex;
+    align-items: center;
+}
